@@ -55,4 +55,3 @@ Ce projet démontre ma capacité à :
 - Traduire les besoins business en analyses concrètes
 - Interpréter les résultats pour orienter les prises de décisions stratégiques
 
-
