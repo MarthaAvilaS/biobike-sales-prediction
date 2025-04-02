@@ -1,68 +1,58 @@
-# 🚴‍♀️ Biobike Sales Prediction
+# 🏠 Prédiction des Prix de l’Immobilier avec le Machine Learning
 
-**Projet de Machine Learning supervisé - Prédiction des ventes de vélos**
-
-Ce projet a été réalisé dans le cadre de ma formation en Data Analytics. Il vise à prédire le volume de ventes de vélos Biobike à partir de données historiques. Ce cas d’usage illustre comment l’intelligence artificielle peut appuyer les décisions stratégiques de vente, de marketing et de gestion des stocks.
+**Projet Data Science – Analyse prédictive des ventes de maisons**
 
 ---
 
 ## 🎯 Objectif du projet
 
-Anticiper les ventes de vélos Biobike pour optimiser les actions commerciales :
+Ce projet vise à prédire le prix de vente des maisons à partir de différentes caractéristiques (surface, nombre de chambres, garage, etc.) en utilisant des algorithmes de machine learning supervisé.
 
-- Prévoir les quantités à produire
-- Ajuster les stratégies marketing
-- Améliorer la gestion des stocks et de la logistique
-- Identifier les variables clés qui influencent la demande
+---
+
+## 🔍 Problématique
+
+> *Comment prédire avec précision le prix de vente d’une maison en fonction de ses attributs pour aider les agences immobilières à estimer rapidement la valeur d’un bien ?*
 
 ---
 
 ## 🧠 Compétences mobilisées
 
-- 🐍 Python (Pandas, Matplotlib, Scikit-learn)
-- 📊 Visualisation et analyse exploratoire des données (EDA)
-- 🔍 Sélection des variables pertinentes
-- 🤖 Modélisation prédictive (régression linéaire)
-- 🧪 Validation croisée et évaluation des performances
-- 💡 Interprétation business des résultats
+- Analyse de données avec **Pandas** et **NumPy**
+- Visualisations avec **Matplotlib** et **Seaborn**
+- Prétraitement des données (traitement des valeurs manquantes, encodage, normalisation)
+- Modélisation prédictive avec :
+  - Régression Linéaire
+  - Random Forest Regressor
+- Évaluation des performances avec **MAE**, **RMSE**, **R²**
+- Optimisation de l’hyperparamétrage
 
 ---
 
-## 🗃️ Données utilisées
+## 📈 Résultats
 
-Le jeu de données comprend :
-
-- Les caractéristiques des vélos (modèle, prix, caractéristiques techniques)
-- Les périodes de l’année (mois, saisonnalité)
-- Des indicateurs économiques et commerciaux
-- Les volumes de ventes historiques
+- Le modèle de **régression random forest** a permis d’atteindre une **erreur moyenne absolue (MAE)** inférieure à X €, avec un **score R² > 0,85**
+- Les **variables les plus influentes** identifiées : superficie du terrain, nombre de salles de bains, présence de garage, qualité générale.
 
 ---
 
-## 📈 Modèle utilisé
+## 📂 Fichier du projet
 
-Le modèle principal utilisé est une **régression linéaire**. D’autres approches peuvent être intégrées dans de futures versions du projet pour améliorer la performance, comme les forêts aléatoires ou le gradient boosting.
-
----
-
-## ✅ Résultats
-
-- Coefficient de détermination R² : **~0.85**
-- Erreur quadratique moyenne (RMSE) réduite grâce à la sélection des variables
-- Mise en évidence de l’importance de certaines variables comme le **prix**, la **saison**, ou la **promotion**
+- `House-price-prediction-sales.ipynb` – Notebook complet contenant :
+  - Exploration des données
+  - Visualisations
+  - Feature engineering
+  - Modélisation
+  - Analyse des résultats
 
 ---
 
-## 🌍 Portée et application
+## 🌟 Portée métier
 
-Ce projet s’applique directement à toute entreprise cherchant à :
+Ce projet démontre ma capacité à :
 
-- Optimiser sa chaîne d'approvisionnement
-- Planifier les ventes de manière plus efficace
-- Renforcer sa stratégie de pricing
+- Construire un pipeline de prédiction robuste
+- Traduire les besoins business en analyses concrètes
+- Interpréter les résultats pour orienter les prises de décisions stratégiques
 
----
-
-
-> ⭐ *N'hésitez pas à étoiler ce repo s’il vous a intéressé, ou à me contacter pour toute question ou collaboration !*
 
